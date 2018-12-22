@@ -20,7 +20,7 @@ class Patient
       appointment.patient == self
     end
   end
-                                        #fix these two methods they break the code
+                                        
   def doctors
     appointments.collect do |appointment|
       appointment.doctor
